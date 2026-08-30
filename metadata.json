@@ -1,0 +1,6 @@
+{
+  "name": "Sri Siddhi Vinayaka Utsav 2026",
+  "description": "Official festival website for Sri Siddhi Vinayaka Utsav 2026 by bennur_galligang, B-Phase Colony, Bennur. 9 Days Schedule, Ganesh Nimarjanam, Lucky Draw, and WhatsApp updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

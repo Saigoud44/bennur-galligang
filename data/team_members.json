@@ -1,0 +1,86 @@
+[
+  {
+    "id": "tm-1",
+    "name": "Sai Goud",
+    "role": "Chief Coordinator & Admin (bennur_galligang)",
+    "teluguRole": "ఉత్సవ కమిటీ సమన్వయకర్త",
+    "phone": "9390905613",
+    "displayPhone": "+91 93909 05613",
+    "whatsappLink": "https://wa.me/919390905613?text=Namaste%20Sai%20Goud%20garu,%20regarding%20bennur_galligang%20Sri%20Siddhi%20Vinayaka%20Utsav%202026.",
+    "badge": "Committee Lead • ₹50 Tokens",
+    "department": "core",
+    "isLeader": true
+  },
+  {
+    "id": "tm-2",
+    "name": "Naresh Yadav",
+    "role": "Event & Seva Incharge",
+    "teluguRole": "ఈవెంట్ & సేవా ఇంచార్జ్",
+    "phone": "8688757194",
+    "displayPhone": "+91 86887 57194",
+    "whatsappLink": "https://wa.me/918688757194?text=Namaste%20Naresh%20garu,%20regarding%20bennur_galligang%20Sri%20Siddhi%20Vinayaka%20Utsav%202026.",
+    "badge": "9 Days Programs & Seva",
+    "department": "core",
+    "isLeader": true
+  },
+  {
+    "id": "tm-3",
+    "name": "Venkat Yadav",
+    "role": "Youth & Event Coordinator",
+    "teluguRole": "యూత్ & ఈవెంట్ సమన్వయకర్త",
+    "phone": "7671803053",
+    "displayPhone": "+91 76718 03053",
+    "whatsappLink": "https://wa.me/917671803053?text=Namaste%20Venkat%20Yadav%20garu,%20regarding%20bennur_galligang%20Sri%20Siddhi%20Vinayaka%20Utsav%202026.",
+    "badge": "Youth & Volunteer Coordination",
+    "department": "youth",
+    "isLeader": true
+  },
+  {
+    "id": "tm-4",
+    "name": "Shiva Kumar",
+    "role": "Lucky Draw & Bicycle Prize Coordinator",
+    "teluguRole": "లక్కీ డ్రా & సైక్లింగ్ ప్రైజ్ ఇంచార్జ్",
+    "phone": "9390905613",
+    "displayPhone": "+91 93909 05613",
+    "whatsappLink": "https://wa.me/919390905613?text=Namaste,%20regarding%20₹50%20Lucky%20Draw%20Token.",
+    "badge": "₹50 Token Counter",
+    "department": "luckydraw",
+    "isLeader": false
+  },
+  {
+    "id": "tm-4",
+    "name": "Rakesh Goud",
+    "role": "Maha Annadanam & Mahaprasadam Lead",
+    "teluguRole": "మహా అన్నదానం & ప్రసాదం బాధ్యులు",
+    "phone": "8688757194",
+    "displayPhone": "+91 86887 57194",
+    "whatsappLink": "https://wa.me/918688757194?text=Namaste,%20regarding%20Maha%20Annadanam%20Seva.",
+    "badge": "Annadanam Seva (Day 8)",
+    "department": "annadanam",
+    "isLeader": false
+  },
+  {
+    "id": "tm-5",
+    "name": "Venkat Reddy",
+    "role": "Sound, Dhol Tasha & Lighting Incharge",
+    "teluguRole": "సౌండ్, లైటింగ్ & డోల్ తాషా",
+    "phone": "9390905613",
+    "displayPhone": "+91 93909 05613",
+    "whatsappLink": "https://wa.me/919390905613?text=Namaste,%20regarding%20Sound%20and%20Lighting.",
+    "badge": "Grand Procession Lead",
+    "department": "sound",
+    "isLeader": false
+  },
+  {
+    "id": "tm-6",
+    "name": "bennur_galligang Youth Wing",
+    "role": "Youth Volunteers & Community Outreach",
+    "teluguRole": "బెన్నూరు యూత్ వాలంటీర్స్ వింగ్",
+    "phone": "9390905613",
+    "displayPhone": "+91 93909 05613",
+    "whatsappLink": "https://wa.me/919390905613?text=Namaste,%20want%20to%20volunteer%20with%20bennur_galligang%20Youth%20Wing.",
+    "badge": "bennur_galligang Volunteers",
+    "department": "youth",
+    "isLeader": false
+  }
+]

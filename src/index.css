@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', 'Marcellus', Georgia, serif;
+    --font-serif: 'Rozha One', 'Marcellus', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: #FFFDF9;
+    color: #2D1810;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', 'Marcellus', Georgia, serif;
+}
+
+.font-festive {
+  font-family: 'Rozha One', 'Marcellus', Georgia, serif;
+}
+
+.font-marcellus {
+  font-family: 'Marcellus', Georgia, serif;
+}
+
+/* Festive Background and Borders */
+.bg-festive-pattern {
+  background-color: #FFFDF8;
+  background-image: radial-gradient(#F59E0B 0.75px, transparent 0.75px), radial-gradient(#EA580C 0.75px, #FFFDF8 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.15;
+}
+
+.bg-mandala-radial {
+  background: radial-gradient(circle at 50% 20%, rgba(254, 243, 199, 0.8) 0%, rgba(255, 237, 213, 0.4) 40%, rgba(255, 253, 249, 1) 75%);
+}
+
+.golden-border {
+  border: 1px solid rgba(217, 119, 6, 0.25);
+  box-shadow: 0 4px 20px -2px rgba(217, 119, 6, 0.08);
+}
+
+.golden-border-strong {
+  border: 2px solid #F59E0B;
+  box-shadow: 0 6px 24px -2px rgba(245, 158, 11, 0.2);
+}
+
+.festive-gradient-gold {
+  background: linear-gradient(135deg, #FF9933 0%, #D97706 50%, #B45309 100%);
+}
+
+.festive-gradient-saffron {
+  background: linear-gradient(135deg, #FFF7ED 0%, #FEF3C7 50%, #FFEDD5 100%);
+}
+
+.festive-gradient-kumkum {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 50%, #991B1B 100%);
+}
+
+/* Shimmer animations */
+@keyframes diyaGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.6)) drop-shadow(0 0 14px rgba(234, 88, 12, 0.4));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.85)) drop-shadow(0 0 20px rgba(234, 88, 12, 0.6));
+    transform: scale(1.03);
+  }
+}
+
+.animate-diya {
+  animation: diyaGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFBEB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F59E0B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D97706;
+}
